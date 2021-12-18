@@ -1,0 +1,29 @@
+
+body{
+   background-color: rgb(128, 128, 238);
+  
+}a{
+    color: white;
+    font-weight: bolder;
+    
+}
+
+
+div.sucesso{
+    padding:7px 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: rgb(205, 226, 205);
+    color: rgb(4, 165, 4);
+}div.aviso{
+    padding:7px 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: rgb(251, 248, 229);
+    color: rgb(134, 110, 66);
+}div.erro{padding:7px 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: rgb(239, 223, 222);
+    color: rgb(211, 67, 57);
+}
