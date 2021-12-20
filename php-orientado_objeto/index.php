@@ -36,7 +36,7 @@ and open the template in the editor.
         // nova visualização da pessoa P[0] no video[0]
         $vis[0] = new Visualizacao($p[0], $v[0]);
         $vis[1] = new Visualizacao($p[0], $v[2]);
-        
+        $vis[2] = new Visualizacao($p[0],$v[0]);
       
         $vis[0]->avaliarPorc(50);
         $vis[0]->avaliar();
