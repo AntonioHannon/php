@@ -18,7 +18,7 @@
             if(empty($_SESSION['user'])){ // se o usuario estiver vazio, aparece o botão de login
             echo "<a href='user-login.php'>Logar</a>";
             }else{ // caso já esteja logado, ele irá mostrar o nome, e o botão de logout
-            echo "Olá, <strong> " .  $_SESSION['nome'] ."</strong> |";
+            echo "Olá, <strong> " .  $_SESSION['nome'] ."</strong> | " . strtoupper($_SESSION['tipo']) ;
             echo "<br>";
             echo "<a href='logout.php'>logout</a>";
             }

@@ -35,7 +35,7 @@ if(is_null($u) || is_null($s)){
             if($busca->num_rows > 0){
                 $reg = $busca->fetch_object(); //  Retorna a linha atual do conjunto de resultados como um objeto
 
-                if($reg->senha == $s){ // se a variavel $u e $s forem iguais as entradas do banco de dados, ele ira inicar a sessao, colocando dados em $_session
+                if(testarHash($s,$reg->senha)){ // verifica se a senha bate com a que esta no banco de dados, testando a hash;
                     $_SESSION['user'] = $reg->usuario;
                     $_SESSION['nome'] = $reg->nome;
                     $_SESSION['tipo'] = $reg->tipo;

@@ -1,8 +1,6 @@
 <?php
 
 // pagina de funções
-
-
 function logout(){  // função para deslogar
     session_unset();
 }
@@ -18,5 +16,6 @@ function mensagemErro($m){ // função de mensagem de erro
     echo "<br>";
     return $r;   
 }
+
 
 ?>
