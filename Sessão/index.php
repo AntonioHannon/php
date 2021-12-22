@@ -11,6 +11,8 @@
 </head>
 <body>
 <div class="cabecalho">
+
+   
     <?php
         require_once 'includes/funcoes.php'; // esta pegando funções de funcoes.php
         require_once 'includes/login.php';  // esta chamando os dados de sessão
